@@ -1,6 +1,6 @@
 # provider
 variable "credentials" {
-  default = "terraform-test-2021-21be80bc9de7.json" # import service key
+  default = "terraform_serviceaccount_key.json" # import service key
 }
 variable "project" {
   type = object({
@@ -40,8 +40,8 @@ variable "ssh" {
     user = string
   })
   default = {
-    key  = "google-cloudsystem.pem.pub" # change, make ssh-key
-    user = "cloudsystem" # change
+    key  = "Example.pem.pub" # change, make ssh-key
+    user = "root..?" # change
   }
 }
 ***/
