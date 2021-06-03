@@ -1,6 +1,6 @@
 # provider
 variable "credentials" {
-  default = "terraform_serviceaccount_key.json" # import service key
+  default = "terraform-test-2021-21be80bc9de7.json" # import service key
 }
 variable "project" {
   type = object({
@@ -9,9 +9,9 @@ variable "project" {
     number = string
   })
   default = {
-    id     = "terraform-example" # import project ID
-    name   = "terraform-example" # import project name
-    number = "XXXXXXXXXXXX" # import project number 12
+    id     = "terraform-test-2021" # import project ID
+    name   = "terraform-test" # import project name
+    number = "747298577078" # import project number 12
     kname  = "테라폼프로젝트" # import K-project name
     team   = "cloud-infra-team" # import team
     admin  = "dominic" # import admin
