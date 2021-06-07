@@ -37,7 +37,7 @@ variable "ssh" {
     user = string
   })
   default = {
-    key  = "XXXXXXX.pem.pub" # change, make ssh-key
+    key  = "XXXXXXX.pem.pub" # change, make ssh-key 
     user = "XXXXXXX" # change
   }
 }
