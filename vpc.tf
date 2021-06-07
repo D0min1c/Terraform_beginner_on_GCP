@@ -54,29 +54,29 @@ module "vpc" {
       ]
     }
 ##### outbound #####
-#    outbound = {
-#      direction            = "EGRESS"
-#      action               = "allow"
-#      ranges               = ["0.0.0.0/0"]
-#      sources              = null
-#      targets              = null
-#      use_service_accounts = false
-#      priority             = "1000"
-#      rules = [
-#        {
-#          protocol = "tcp"
-#          ports    = ["0-65535"]
-#        },
-#        {
-#          protocol = "udp"
-#          ports    = ["0-65535"]
-#        },
-#        {
-#          protocol = "icmp"
-#          ports    = null
-#        }
-#      ]
-#    }
+    outbound = {
+      direction            = "EGRESS"
+      action               = "allow"
+      ranges               = ["0.0.0.0/0"]
+      sources              = null
+      targets              = null
+      use_service_accounts = false
+      priority             = "1000"
+      rules = [
+        {
+          protocol = "tcp"
+          ports    = ["0-65535"]
+        },
+        {
+          protocol = "udp"
+          ports    = ["0-65535"]
+        },
+        {
+          protocol = "icmp"
+          ports    = null
+        }
+      ]
+    }
 ######################################################################
 
   }
