@@ -3,7 +3,7 @@
 # If a command fails then the deploy stops
 set -e
 
-printf "\033[0;32mDeploying updates to Blog...\033[0m\n"
+printf "\033[0;32mDeploying updates to Terraform_GCP...\033[0m\n"
 # Add changes to git.
 git add .
 
